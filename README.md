@@ -72,7 +72,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest code
-git clone https://edgarr_t@bitbucket.org/edgarr_t/booking_software.git booking-software
+git clone https://github.com/edgarrt/booking_software.git booking-software
 
 # Change directory
 cd booking-software
