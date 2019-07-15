@@ -1,0 +1,89 @@
+doctype html
+//
+  Dimension by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+head
+  title Demo
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  link(rel='stylesheet' href='/css/dimension/main.css')
+  link(rel='stylesheet' href='/css/fileUpload.css')    
+  noscript
+    link(rel='stylesheet' href='/css/dimension/noscript.css')
+
+body.is-article-visible
+  #main._show
+    article#contact.active
+      h2.major Contact
+      form(method='POST' enctype='multipart/form-data')
+        input(type='hidden', name='_csrf', value=_csrf)      
+        .fields
+          .field.half
+            label(for='name') Name
+            input#name(type='text' name='name' required='')
+          .field.half
+            label(for='email') Email
+            input#email(type='text' name='email' required='')
+          .field
+            label(for='phone_number') Phone Number
+            input#tel(type='tel' name='phone_number' required='')
+          .field
+            label(for='address') Address
+            input#name(type='text' name='address' required='')
+          .field.third
+            label(for='city') City
+            input#email(type='text' name='city' required='')                            
+          .field.third
+            label(for='state') State
+            input#email(type='text' name='state' required='')                            
+          .field.third
+            label(for='zip_code') Zip Code
+            input#email(type='text' name='zip_code' required='')                            
+          .field
+            label(for='size_of_piece') Size and Location of Desired Piece
+            textarea#message(name='size_of_piece' rows='4' required='')
+          .field
+            label(for='work_area') Is there any existing work in or around the area?
+            textarea#message(name='work_area' rows='4' required='')
+          .field
+            label(for='inspiration') What is the inspiration and why is this piece significant to you? Minimum 50 characters.
+            textarea#message(name='inspiration' rows='4' required='')
+          .field
+            p If you have any design or image references, please attach them here. ( Optional )    
+            .file-uploader__message-area
+              p Select a file to upload
+            .file-chooser
+              input.file-chooser__input(type='file' name='files')                
+        ul.actions
+          li
+            input.primary(type='submit' value='Send Message')
+          li
+            input(type='reset' value='Reset')
+      ul.icons
+        li
+          a.icon.brands.fa-twitter(href='#')
+            span.label Twitter
+        li
+          a.icon.brands.fa-facebook-f(href='#')
+            span.label Facebook
+        li
+          a.icon.brands.fa-instagram(href='#')
+            span.label Instagram
+        li
+          a.icon.brands.fa-github(href='#')
+            span.label GitHub
+
+
+
+// BG
+#bg
+
+// Scripts
+script(src='/js/lib/popper.min.js')
+script(src='/js/dimension/jquery.min.js')
+script(src='/js/fileUpload.js')
+script(src='/js/dimension/browser.min.js')
+script(src='/js/dimension/breakpoints.min.js')
+script(src='/js/dimension/util.js')
+script(src='/js/dimension/minimal.js')

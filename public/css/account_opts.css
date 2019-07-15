@@ -1,0 +1,35 @@
+h1 {
+    text-align: center !important
+}
+
+p {
+    text-align: center !important
+}
+
+.fa-pen-fancy{
+  font-size: 70px;
+  margin-left: 47%;
+  margin-bottom: 1%;
+  color: Dodgerblue;
+}
+
+
+forgot {
+  text-align: center !important
+}
+
+.pl-2 {
+  text-align: center !important;
+}
+
+.offset-md-3 {
+  margin-left: 22% !important
+}
+
+.offset-sm-3 {
+  margin-left: 22% !important
+}
+
+body {
+  background-color: #f5f5f5
+}
