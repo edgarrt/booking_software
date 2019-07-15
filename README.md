@@ -39,12 +39,12 @@ This can be reversed afterwards by removing edits.
 #### On Linux or OSX
 Add the following subdomains to `/etc/hosts`:
 ```
-127.0.0.1       example.com
-127.0.0.1       app.example.com
-127.0.0.1       login.example.com
-127.0.0.1       demo.example.com
-127.0.0.1       test.example.com
-127.0.0.1       showcase.example.com
+127.0.0.1       inkdby.com
+127.0.0.1       app.inkdby.com
+127.0.0.1       login.inkdby.com
+127.0.0.1       demo.inkdby.com
+127.0.0.1       test.inkdby.com
+127.0.0.1       showcase.inkdby.com
 ```
 
 You may not have write permissions on your hosts file, in which case you can
@@ -59,12 +59,12 @@ Search for Notepad and click `Run As Administrator `
 Once in Note, click `File` -> `Open`-> `C:\Windows\System32\drivers\etc\hosts`
 Add the following subdomains to `/etc/hosts`:
 ```
-127.0.0.1       example.com
-127.0.0.1       app.example.com
-127.0.0.1       login.example.com
-127.0.0.1       demo.example.com
-127.0.0.1       test.example.com
-127.0.0.1       showcase.example.com
+127.0.0.1       inkdby.com
+127.0.0.1       app.inkdby.com
+127.0.0.1       login.inkdby.com
+127.0.0.1       demo.inkdby.com
+127.0.0.1       test.inkdby.com
+127.0.0.1       showcase.inkdby.com
 ```
 
 #### Running Demo

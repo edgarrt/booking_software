@@ -95,7 +95,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 app.use((req, res, next) => {
-  if (req.path === '/inquiry') {
+  if (req.path === '/inquiry' || req.path === '/login') {
     next();
   } else {
     lusca.csrf()(req, res, next);
@@ -178,7 +178,7 @@ app.use(function (req, res, next) {
  * Start Express server.
  */
 app.listen(app.get('port'), () => {
-  console.log('%s App is running at http://example.com in %s mode', chalk.green('✓'), app.get('env'));
+  console.log('%s App is running at http://inkdby.com in %s mode', chalk.green('✓'), app.get('env'));
   console.log('  Press CTRL-C to stop');
   console.log('  Enter rs to restart server\n');
 });
