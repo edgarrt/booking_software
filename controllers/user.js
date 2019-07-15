@@ -14,7 +14,7 @@ const randomBytesAsync = promisify(crypto.randomBytes);
  */
 exports.getLogin = (req, res) => {
   if (req.user) {
-    res.redirect('http://app.inkdby.com');
+    res.redirect('http://app.example.com');
   }else{
     res.render('account/login', {
       title: 'Login'
@@ -45,7 +45,7 @@ exports.postLogin = (req, res, next) => {
     }
     req.logIn(user, (err) => {
       if (err) { return next(err); }
-      res.redirect('http://app.inkdby.com');
+      res.redirect('http://app.example.com');
     });
   })(req, res, next);
 };
@@ -69,7 +69,7 @@ exports.logout = (req, res) => {
  */
 exports.getSignup = (req, res) => {
   if (req.user) {
-    res.redirect('http://app.inkdby.com');
+    res.redirect('http://app.example.com');
   }else{
     res.render('account/signup', {
       title: 'Create Account'
@@ -118,7 +118,7 @@ exports.postSignup = (req, res, next) => {
             if (err) {
               return next(err);
             }else{
-              res.redirect('http://app.inkdby.com');
+              res.redirect('http://app.example.com');
             }
           });
       });

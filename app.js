@@ -85,7 +85,7 @@ app.use(session({
   saveUninitialized: false,
   secret: process.env.SESSION_SECRET,
   cookie: { maxAge: 1209600000,
-            domain:'.inkdby.com'}, // two weeks in milliseconds
+            domain:'.example.com'}, // two weeks in milliseconds
   store: new MongoStore({
     url: process.env.MONGODB_URI,
     autoReconnect: true,

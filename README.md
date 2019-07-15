@@ -7,13 +7,13 @@ Check latest [Changes](https://github.com/edgarrt/booking_software/blob/master/C
 Accessing inkedDemo
 ---------------
 To view the app, access the correct url depending on desired endpoint
-- Demo Site 1: http://demo.inkdby.com  
-- Demo Site 1: http://test.inkdby.com  
-- Demo Site 1: http://showcase.inkdby.com  
-- Login Site: http://login.inkdby.com
-- Signup Page: http://login.inkdby.com/signup  
-- App Dashboard: http://app.inkdby.com  
-- Company Page: http://inkdby.com ( Template)
+- Demo Site 1: http://demo.example.com  
+- Demo Site 1: http://test.example.com  
+- Demo Site 1: http://showcase.example.com  
+- Login Site: http://login.example.com
+- Signup Page: http://login.example.com/signup  
+- App Dashboard: http://app.example.com  
+- Company Page: http://example.com ( Template)
 
 
 
@@ -106,13 +106,13 @@ Project Structure
 | Name                               | Description                                                  |
 | ---------------------------------- | ------------------------------------------------------------ |
 | **config**/passport.js             | Passport Local and OAuth strategies, plus login middleware.  |
-| **controllers**/**clients**/demo.js| Controller for http://demo.inkdby.com routes                       |
-| **controllers**/**clients**/showcase.js| Controller for http://showcase.inkdby.com routes                       |
-| **controllers**/**clients**/test.js| Controller for http://test.inkdby.com routes                       |
-| **controllers**/company.js             | Controller for http://inkdby.com routes.               |
-| **controllers**/dashboard.js         | Controller for http://app.inkdby.com                                  |
+| **controllers**/**clients**/demo.js| Controller for http://demo.example.com routes                       |
+| **controllers**/**clients**/showcase.js| Controller for http://showcase.example.com routes                       |
+| **controllers**/**clients**/test.js| Controller for http://test.example.com routes                       |
+| **controllers**/company.js             | Controller for http://example.com routes.               |
+| **controllers**/dashboard.js         | Controller for http://app.example.com                                  |
 | **controllers**/routing.js            | Controller for subdomain routing                            |
-| **controllers**/user.js            | Controller for http://login.inkdby.com routes                      |
+| **controllers**/user.js            | Controller for http://login.example.com routes                      |
 | **models**/Inquiry.js                 | Mongoose schema and for Inquiries.                          |
 | **models**/User.js                 | Mongoose schema and model for User.                          |
 | **public**/                        | Static assets (fonts, css, js, img).                         |
@@ -120,12 +120,12 @@ Project Structure
 | **public**/**js**/main.js          | client-side JavaScript here, will populate soon                      |
 | **public**/**css**/main.scss       | Main app stylesheet.                                 |
 | **public/css/themes**/default.scss | Bootstrap overrides to make it look prettier.           |
-| **routes**/**clients**/demo.routes.js| Defines all http://demo.inkdby.com routes                       |
-| **routes**/**clients**/showcase.routes.js| Defines all http://showcase.inkdby.com routes                       |
-| **routes**/**clients**/test.routes.js| Defines all http://test.inkdby.com routes                       |
-| **routes**/company.routes.js| Defines all http://inkdby.com routes                       |
-| **routes**/dashboard.routes.js| Defines all http://app.inkdby.com routes                       |
-| **routes**/login.routes.js| Defines all http://login.inkdby.com routes                       |
+| **routes**/**clients**/demo.routes.js| Defines all http://demo.example.com routes                       |
+| **routes**/**clients**/showcase.routes.js| Defines all http://showcase.example.com routes                       |
+| **routes**/**clients**/test.routes.js| Defines all http://test.example.com routes                       |
+| **routes**/company.routes.js| Defines all http://example.com routes                       |
+| **routes**/dashboard.routes.js| Defines all http://app.example.com routes                       |
+| **routes**/login.routes.js| Defines all http://login.example.com routes                       |
 | **views/account**/                 | Views *login, password reset, signup*.      |
 | **views/partials**/flash.pug       | Error, info and success flash notifications.                 |
 | **views/partials**/footer.pug      | Footer partial template.                                     |

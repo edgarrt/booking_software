@@ -3,7 +3,7 @@
 
 ### 1.1.0 (July 15, 2019)
 - Added Google image storage instead of local storage
-- Deployed website to domain ( www.inkdby.com)
+- Deployed website to domain ( www.example.com)
 - Removed files from version control
 - Updated Code Documentation and README.md
 
