@@ -2,7 +2,7 @@
 ##### Work in Progress
 
 
-Check latest [Changes](https://github.com/edgarrt/booking_software/CHANGELOG.md).
+Check latest [Changes](https://github.com/edgarrt/booking_software/blob/master/CHANGELOG.md).
 
 Accessing inkedDemo
 ---------------
